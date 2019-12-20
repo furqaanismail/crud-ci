@@ -8,7 +8,7 @@
         {
             $data['judul'] = 'halaman Home';
             $this->load->view('templates/header', $data);
-            $this->load->view('home/index');
+            $this->load->view('index');
             $this->load->view('templates/footer');
             
         }
